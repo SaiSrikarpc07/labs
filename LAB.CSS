@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.appointment-form {
+  margin-top: 20px;
+}
+
+.appointment-form input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.appointment-form button {
+  margin-top: 10px;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.hero {
+  background: url('lab.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 180px 10px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 60px 20px;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+}
+
+.services-list li {
+  padding: 10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f1f1f1;
+  margin-top: 40px;
+}
